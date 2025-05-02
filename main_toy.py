@@ -62,7 +62,6 @@ def main():
 
     while True:
         iter += 1
-        print(iter)
 
         # Zero the gradient
         con_opt.zero_grad()
