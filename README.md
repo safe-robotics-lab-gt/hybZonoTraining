@@ -13,7 +13,7 @@ Specifically, given a non-convex input set and a non-convex unsafe set, this met
 </p>
 
 -------
-[**[Website]**](https://saferoboticslab.me.gatech.edu/research/hybrid-zonotope-training/) &ensp; [**[Paper]**](https://arxiv.org/abs/2501.13023)
+[**[Website]**](https://saferoboticslab.me.gatech.edu/research/hybrid-zonotope-training/) &ensp; [**[Paper]**](https://doi.org/10.1109/CDC57313.2025.11312423)
 
 -------
 **Authors:** Long Kiu Chung, Shreyas Kousik
@@ -25,7 +25,8 @@ Specifically, given a non-convex input set and a non-convex unsafe set, this met
 -------
 ## Setup Requirements
 ### Installation
-Create and activate a Conda environment from `environment.yml` by following [this tutorial](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
+1. Create and activate a Conda environment from `environment.yml` by following [this tutorial](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file).
+2. Install PyTorch by following [this guide](https://pytorch.org/).
 
 -------
 ## Navigating This Repo
@@ -41,10 +42,12 @@ Visualization and some hybrid zonotope operations have not yet been implemented.
 ## Citation
 Please cite [this paper](https://arxiv.org/abs/2501.13023) if you use our method in your work:
 ```bibtex
-@article{chung2025provably,
-  title={Provably-Safe Neural Network Training Using Hybrid Zonotope Reachability Analysis},
+@inproceedings{chung2025provably,
+  title={Provably-safe neural network training using hybrid zonotope reachability analysis},
   author={Chung, Long Kiu and Kousik, Shreyas},
-  journal={arXiv preprint arXiv:2501.13023},
-  year={2025}
+  booktitle={2025 IEEE 64th Conference on Decision and Control (CDC)},
+  pages={7030--7037},
+  year={2025},
+  organization={IEEE}
 }
 ```
