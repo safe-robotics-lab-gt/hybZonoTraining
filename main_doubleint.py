@@ -69,7 +69,7 @@ def main():
             if isEmpty:
                 print("Training successful!")
                 break
-        elif iter == iter_max:
+        if iter == iter_max:
             print("Max iteration reached!")
             break
 
